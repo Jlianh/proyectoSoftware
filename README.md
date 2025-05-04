@@ -1,4 +1,4 @@
-Actividad 2 – Documento de formulación de proyecto
+Actividad 4 - Diseño del prototipo.   04/05/2025
 
 Integrantes del grupo
 
