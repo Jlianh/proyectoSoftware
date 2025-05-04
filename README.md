@@ -1,4 +1,4 @@
-Actividad 4 - Diseño del prototipo.   04/05/2025
+Actividad 4 - Diseño del prototipo.   
 
 Integrantes del grupo
 
