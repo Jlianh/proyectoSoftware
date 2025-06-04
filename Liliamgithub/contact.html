@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto - Liliam Boutique</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/stylecontact.css">
+</head>
+<body>
+    <!-- Header -->
+    <section class="header">
+        <div class="container">
+            <h1>Contacto</h1>
+            <p>Estamos aquí para ayudarte. ¡Contáctanos!</p>
+        </div>
+    </section>
+
+    <!-- Main Content -->
+    <section class="main-content">
+        <div class="container">
+            <!-- Contact Grid -->
+            <div class="contact-grid">
+                <!-- Contact Form -->
+                <div class="contact-form">
+                    <h2>Envíanos un Mensaje</h2>
+                    <form>
+                        <div class="form-group">
+                            <label for="nombre">Nombre Completo *</label>
+                            <input type="text" id="nombre" name="nombre" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="email">Correo Electrónico *</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="telefono">Teléfono</label>
+                            <input type="tel" id="telefono" name="telefono">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="asunto">Asunto *</label>
+                            <select id="asunto" name="asunto" required>
+                                <option value="">Selecciona un asunto</option>
+                                <option value="consulta">Consulta General</option>
+                                <option value="producto">Información de Producto</option>
+                                <option value="pedido">Estado de Pedido</option>
+                                <option value="cambio">Cambios y Devoluciones</option>
+                                <option value="sugerencia">Sugerencias</option>
+                                <option value="otro">Otro</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="mensaje">Mensaje *</label>
+                            <textarea id="mensaje" name="mensaje" placeholder="Escribe tu mensaje aquí..." required></textarea>
+                        </div>
+                        
+                        <button type="submit" class="btn-submit">
+                            <i class="fas fa-paper-plane"></i> Enviar Mensaje
+                        </button>
+                    </form>
+                </div>
+
+                <!-- Contact Info -->
+                <div class="contact-info">
+                    <div class="info-card">
+                        <h3><i class="fas fa-phone"></i> Teléfonos</h3>
+                        <p><a href="tel:+573001234567">+57 300 123 4567</a></p>
+                        <p><a href="tel:+573007654321">+57 300 765 4321</a></p>
+                        <p>Lunes a Viernes: 8:00 AM - 6:00 PM</p>
+                    </div>
+
+                    <div class="info-card">
+                        <h3><i class="fas fa-envelope"></i> Email</h3>
+                        <p><a href="mailto:info@liliamboutique.com">info@liliamboutique.com</a></p>
+                        <p><a href="mailto:ventas@liliamboutique.com">ventas@liliamboutique.com</a></p>
+                        <p>Respuesta en menos de 24 horas</p>
+                    </div>
+
+                    <div class="info-card">
+                        <h3><i class="fab fa-whatsapp"></i> WhatsApp</h3>
+                        <p><a href="https://wa.me/573001234567" target="_blank">+57 300 123 4567</a></p>
+                        <p>Atención inmediata</p>
+                        <p>Lunes a Sábado: 9:00 AM - 7:00 PM</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Store Locations -->
+            <div class="store-locations">
+                <h2>Nuestras Tiendas</h2>
+                <div class="stores-grid">
+                    <div class="store-card">
+                        <h4>Tienda Principal</h4>
+                        <div class="store-detail">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Calle Principal #123, Centro<br>Barbosa, Antioquia</span>
+                        </div>
+                        <div class="store-detail">
+                            <i class="fas fa-clock"></i>
+                            <span>Lun - Sáb: 9:00 AM - 7:00 PM<br>Dom: 10:00 AM - 5:00 PM</span>
+                        </div>
+                        <div class="store-detail">
+                            <i class="fas fa-phone"></i>
+                            <span><a href="tel:+573001234567">+57 300 123 4567</a></span>
+                        </div>
+                    </div>
+
+                    <div class="store-card">
+                        <h4>Sucursal Norte</h4>
+                        <div class="store-detail">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Carrera 50 #45-20, Norte<br>Barbosa, Antioquia</span>
+                        </div>
+                        <div class="store-detail">
+                            <i class="fas fa-clock"></i>
+                            <span>Lun - Vie: 10:00 AM - 6:00 PM<br>Sáb: 9:00 AM - 5:00 PM</span>
+                        </div>
+                        <div class="store-detail">
+                            <i class="fas fa-phone"></i>
+                            <span><a href="tel:+573007654321">+57 300 765 4321</a></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Social Media -->
+            <div class="social-section">
+                <h2>Síguenos en Redes Sociales</h2>
+                <p>Mantente al día con nuestras últimas colecciones y ofertas especiales</p>
+                <div class="social-links">
+                    <a href="#" class="social-link" title="Instagram">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="#" class="social-link" title="Facebook">
+                        <i class="fab fa-facebook"></i>
+                    </a>
+                    <a href="#" class="social-link" title="WhatsApp">
+                        <i class="fab fa-whatsapp"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
