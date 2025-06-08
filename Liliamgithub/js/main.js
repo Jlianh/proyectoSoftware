@@ -1,9 +1,23 @@
-function contactWhatsApp(productName, price) {
-    const phoneNumber = '+573001234567'; // Reemplaza con el número de teléfono de la tienda
-    const message = `Hola, estoy interesado en comprar ${productName} con precio de $${price}.`;
-    const whatsappURL = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
-    window.open(whatsappURL, '_blank');
-}
+// JavaScript para el botón de WhatsApp
+  document.addEventListener("DOMContentLoaded", function () {
+
+    
+    const botones = document.querySelectorAll(".btn-wsp");
+
+    botones.forEach(boton => {
+      boton.addEventListener("click", function (e) {
+        e.preventDefault();
+        const producto = boton.getAttribute("data-producto");
+        const precio = parseFloat(boton.getAttribute("data-precio"));
+        const telefono = "573001112233"; // Reemplaza con tu número real
+
+        const mensaje = `Hola, estoy interesada en el producto: *${producto}* por $${precio.toLocaleString('es-CO')} ¿Está disponible?`;
+        const url = `https://wa.me/${telefono}?text=${encodeURIComponent(mensaje)}`;
+
+        window.open(url, "_blank");
+      });
+    });
+  });
 
 // Popup
 const subscriptionPopup = document.getElementById('subscriptionPopup');
